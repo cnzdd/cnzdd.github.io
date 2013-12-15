@@ -8,12 +8,13 @@
     height: 59px;
     margin: auto;
     color: #ffffff;
-    line-height: 59px;
     background: #e20001 url(../img/header.jpg) no-repeat center;
 }
 
     #header .logo {
         float: left;
+        height:59px;
+        line-height:59px;
         font-size: 40px;
         font-style: oblique;
         width: 210px;
@@ -32,19 +33,18 @@
     margin: auto;
 }
 
-    #logo_indext .qq {
-        font-size: 50px;
-        color: #e20001;
-        line-height: 80px;
-        width: 210px;
-        height: 80px;
+    #logo_indext ul {
+        list-style: none;
     }
 
-        #logo_indext .qq span {
-            color: #e20001;
-            line-height: 80px;
+        #logo_indext ul li {
+            float:left;
+            padding:0 55px;
+            font-size: 25px;
+            font-weight: bold;
             height: 80px;
-            font-size: 30px;
+            line-height: 80px;
+            cursor: pointer;
         }
 
 #Nav {
@@ -108,33 +108,39 @@
         -webkit-border-radius: 15px;
         -moz-border-radius: 15px;
         border-radius: 15px;
-        border:1px 1px 1px 1px solid #f6f6f6;
-        background-color:#b6ff00;
+        border: 1px solid #f6f6f6;
+        background-color: #b6ff00;
     }
-    #content .contentLeft .top{
-        height:70px;
-        line-height:70px;
-        text-align:center;
-        font-size:23px;
-        color:#ffffff;
-        background:#e20001;
-        border-radius: 15px 15px 0px 0px; 
-    }
-    #content .contentLeft .nav{
-        height:200px;
-    }
-    #content .contentLeft .nav ul{
-        list-style:none;
-    }
-    #content .contentLeft .nav ul li{
-        height:50px;
-        line-height:50px;
-        text-align:center;
-        color:#ffffff;
-        font-weight:bold;
-        cursor:pointer;
-    }
-    #content .contentLeft .nav ul li .jianbianXian{
-        height:1px;
-        -webkit-mask-box-image: -webkit-radial-gradient(50% 50%, white, transparent 80px);
-    }
+
+        #content .contentLeft .top {
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            font-size: 23px;
+            color: #ffffff;
+            background: #e20001;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        #content .contentLeft .nav {
+            height: 200px;
+        }
+
+            #content .contentLeft .nav ul {
+                list-style: none;
+            }
+
+                #content .contentLeft .nav ul li {
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                    color: #000;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin:3px 0;
+                }
+
+.xian1 {
+    border-bottom: 1px solid #f6f6f6;
+    width: 210px;
+}
